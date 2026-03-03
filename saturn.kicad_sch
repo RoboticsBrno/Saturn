@@ -7372,7 +7372,7 @@
 	)
 	(text "RP-HUB Display"
 		(exclude_from_sim no)
-		(at 347.472 161.544 0)
+		(at 370.84 154.432 0)
 		(effects
 			(font
 				(size 2 2)
@@ -7797,6 +7797,12 @@
 		(uuid "a0167a6b-2169-403d-bd88-018374198120")
 	)
 	(junction
+		(at 326.39 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1a39c85-d4ab-4d23-8192-5a125157e008")
+	)
+	(junction
 		(at 339.09 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7973,6 +7979,10 @@
 		(uuid "54b35bea-585c-4c17-926b-b191a2f7dc0f")
 	)
 	(no_connect
+		(at 350.52 172.72)
+		(uuid "644392bb-06e2-43b9-820e-9a1e9c8c2a2b")
+	)
+	(no_connect
 		(at 45.085 59.69)
 		(uuid "6a460c7c-bfb9-44b4-a7ae-6adc2c8b3334")
 	)
@@ -7987,6 +7997,10 @@
 	(no_connect
 		(at 267.97 156.21)
 		(uuid "bad40ce1-7967-45d2-9d20-56c166b476a7")
+	)
+	(no_connect
+		(at 358.14 172.72)
+		(uuid "c8219283-b650-4e44-9a3f-3c5c903d60ac")
 	)
 	(wire
 		(pts
@@ -8427,6 +8441,16 @@
 			(type default)
 		)
 		(uuid "1789916c-45f9-44bf-a277-ea32c19a8036")
+	)
+	(wire
+		(pts
+			(xy 326.39 167.64) (xy 326.39 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18146082-8d7d-4ff6-8a02-fd90a2d81faf")
 	)
 	(wire
 		(pts
@@ -9200,7 +9224,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 170.18) (xy 350.52 170.18)
+			(xy 321.31 170.18) (xy 326.39 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9847,6 +9871,16 @@
 			(type default)
 		)
 		(uuid "728c5b99-a482-40d2-9339-41fa30b9f23b")
+	)
+	(wire
+		(pts
+			(xy 326.39 157.48) (xy 326.39 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b97c54-2cbe-410b-a18c-c67b2ed879ed")
 	)
 	(wire
 		(pts
@@ -10607,6 +10641,16 @@
 			(type default)
 		)
 		(uuid "9dc30edf-f5f0-4f73-9e90-27fd8aec1b11")
+	)
+	(wire
+		(pts
+			(xy 326.39 170.18) (xy 350.52 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e20119d-c750-443f-9790-afb14ef40281")
 	)
 	(wire
 		(pts
@@ -12229,7 +12273,7 @@
 		(uuid "1099381f-9183-4c5c-8b73-28f56326c029")
 	)
 	(label "DISPLAY_CS"
-		(at 344.17 170.18 180)
+		(at 321.31 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13164,7 +13208,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "S3B-XH-A-1(LF)(SN)"
 			(at 223.52 33.02 0)
 			(effects
 				(font
@@ -13199,7 +13243,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C493416"
+		(property "LCSC" "C163036"
 			(at 223.52 39.37 0)
 			(effects
 				(font
@@ -13354,7 +13398,7 @@
 		(at 344.17 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13413,6 +13457,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_CORRECTION" "0;2.54;90"
+			(at 344.17 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0e7c3025-a1bc-4d47-9f85-69246bfd21bf")
 		)
@@ -13426,6 +13479,72 @@
 			(project "core_board"
 				(path "/1437d78f-2672-4553-b786-22c28e887ed9"
 					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 326.39 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "094efb3b-e7d8-4788-874a-2afe5b8437db")
+		(property "Reference" "#PWR070"
+			(at 326.39 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 326.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 326.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79d6fac1-2c40-424f-8589-64c4b1ab98cb")
+		)
+		(instances
+			(project "saturn"
+				(path "/1437d78f-2672-4553-b786-22c28e887ed9"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -14202,6 +14321,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
+			(at 299.72 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6d40e962-4816-45f0-b26a-99001c2c77aa")
 		)
@@ -14411,7 +14539,7 @@
 		(at 344.17 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14462,6 +14590,15 @@
 			)
 		)
 		(property "LCSC" "C49257"
+			(at 344.17 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;2.54;90"
 			(at 344.17 48.26 90)
 			(effects
 				(font
@@ -15084,6 +15221,15 @@
 			)
 		)
 		(property "LCSC" "C25506"
+			(at 374.65 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
 			(at 374.65 38.1 90)
 			(effects
 				(font
@@ -16183,6 +16329,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
+			(at 299.72 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6d40e962-4816-45f0-b26a-99001c2c77ab")
 		)
@@ -16672,6 +16827,15 @@
 			)
 		)
 		(property "LCSC" "C25506"
+			(at 299.72 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
 			(at 299.72 58.42 90)
 			(effects
 				(font
@@ -17658,6 +17822,15 @@
 			)
 		)
 		(property "LCSC" "C25506"
+			(at 354.33 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
 			(at 354.33 185.42 90)
 			(effects
 				(font
@@ -18884,6 +19057,122 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 326.39 163.83 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "644638ed-8687-4a22-93c5-cd9ab89dfb31")
+		(property "Reference" "R19"
+			(at 323.85 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 323.85 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 324.612 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 326.39 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 326.39 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 326.39 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic/Extended" "B"
+			(at 326.39 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (100ks)" "0.0005"
+			(at 326.39 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (1ks)" "0.0005"
+			(at 326.39 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b01a3dc7-4a37-44dc-8677-25c1f1c4eb0b")
+		)
+		(pin "2"
+			(uuid "57e48ede-d64d-451c-9a24-a52bf03f90a5")
+		)
+		(instances
+			(project "saturn"
+				(path "/1437d78f-2672-4553-b786-22c28e887ed9"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 323.85 205.74 90)
 		(unit 1)
@@ -19161,15 +19450,15 @@
 		(dnp no)
 		(uuid "6731b616-ac25-404f-8cec-b50906fa5c7d")
 		(property "Reference" "U9"
-			(at 181.61 46.99 0)
+			(at 179.832 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WS2812B"
-			(at 181.61 49.53 0)
+		(property "Value" "XL-2020RGBC-WS2812B"
+			(at 190.246 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19231,6 +19520,15 @@
 			)
 		)
 		(property "Price (1ks)" "0.0861"
+			(at 176.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;180"
 			(at 176.53 53.34 0)
 			(effects
 				(font
@@ -19485,6 +19783,15 @@
 			)
 		)
 		(property "LCSC" "C25506"
+			(at 299.72 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
 			(at 299.72 38.1 90)
 			(effects
 				(font
@@ -20384,6 +20691,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
+			(at 299.72 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6d40e962-4816-45f0-b26a-99001c2c77af")
 		)
@@ -20732,6 +21048,15 @@
 			)
 		)
 		(property "LCSC" "C25506"
+			(at 299.72 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
 			(at 299.72 40.64 90)
 			(effects
 				(font
@@ -21615,6 +21940,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
+			(at 299.72 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6d40e962-4816-45f0-b26a-99001c2c77b1")
 		)
@@ -21907,6 +22241,15 @@
 			)
 		)
 		(property "LCSC" "C491718"
+			(at 389.89 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "11.25;0;0"
 			(at 389.89 200.66 0)
 			(effects
 				(font
@@ -22416,6 +22759,15 @@
 			)
 		)
 		(property "LCSC" "C25506"
+			(at 354.33 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
 			(at 354.33 182.88 90)
 			(effects
 				(font
@@ -23115,6 +23467,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_CORRECTION" "0;9;0"
+			(at 256.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "41"
 			(uuid "a2dbc2c6-ee51-4877-a6fa-64f99edbbe0c")
 		)
@@ -23309,6 +23670,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_CORRECTION" "0;0;180"
+			(at 45.72 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b3bd8f27-fc5b-48f3-a1f4-64a2d03bbe15")
 		)
@@ -23381,6 +23751,15 @@
 			)
 		)
 		(property "LCSC" "C2897388"
+			(at 388.62 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;6.35;-90"
 			(at 388.62 40.64 0)
 			(effects
 				(font
@@ -24072,6 +24451,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
+			(at 354.33 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6d40e962-4816-45f0-b26a-99001c2c77b4")
 		)
@@ -24101,6 +24489,110 @@
 				(path "/1437d78f-2672-4553-b786-22c28e887ed9"
 					(reference "RN6")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 354.33 172.72 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1ec3869-4f34-4612-b2e9-d02b0506fa48")
+		(property "Reference" "RN6"
+			(at 354.33 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 360.68 171.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 354.33 170.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586175564180819968"
+			(at 354.33 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 354.33 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25506"
+			(at 354.33 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
+			(at 354.33 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6d40e962-4816-45f0-b26a-99001c2c77b5")
+		)
+		(pin "5"
+			(uuid "43a50b4d-e620-40e7-9dbc-3f0d88a6d7aa")
+		)
+		(pin "7"
+			(uuid "5eaccaf0-8056-4c7b-a094-430a68bef726")
+		)
+		(pin "8"
+			(uuid "9995411e-3b69-4feb-a2b5-e738b3d91821")
+		)
+		(pin "4"
+			(uuid "bbcf8e00-3b7d-4b99-bb96-a4242624e7dc")
+		)
+		(pin "6"
+			(uuid "2c420afa-fbed-43de-95cf-ce289ce26fd4")
+		)
+		(pin "1"
+			(uuid "9de2c8bb-7d71-4250-86e8-a1ae87f308c5")
+		)
+		(pin "2"
+			(uuid "b0d25404-c8a8-4151-9c23-7dba4f30f3f3")
+		)
+		(instances
+			(project "core_board"
+				(path "/1437d78f-2672-4553-b786-22c28e887ed9"
+					(reference "RN6")
+					(unit 1)
 				)
 			)
 		)
@@ -24159,6 +24651,15 @@
 			)
 		)
 		(property "LCSC" "C25506"
+			(at 354.33 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
 			(at 354.33 165.1 90)
 			(effects
 				(font
@@ -24254,6 +24755,15 @@
 			)
 		)
 		(property "LCSC" "C25506"
+			(at 354.33 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
 			(at 354.33 167.64 90)
 			(effects
 				(font
@@ -24962,6 +25472,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_CORRECTION" "0;6.35;-90"
+			(at 388.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "74cff11f-0b2f-4bcd-8dc8-726578240428")
 		)
@@ -25382,7 +25901,7 @@
 		(at 262.89 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -25433,6 +25952,15 @@
 			)
 		)
 		(property "LCSC" "C49257"
+			(at 262.89 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;2.54;90"
 			(at 262.89 48.26 90)
 			(effects
 				(font
@@ -26065,6 +26593,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
+			(at 354.33 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "e8c7a096-ced2-4a28-b609-122fb951d665")
 		)
@@ -26152,6 +26689,15 @@
 			)
 		)
 		(property "LCSC" "C25506"
+			(at 354.33 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
 			(at 354.33 180.34 90)
 			(effects
 				(font
@@ -26633,6 +27179,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB_CORRECTION" "-1.27;6.35;-90"
+			(at 317.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "257d49eb-0da3-436e-b20f-ec89c2373f0c")
 		)
@@ -26865,6 +27420,15 @@
 			)
 		)
 		(property "LCSC" "C25506"
+			(at 299.72 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
 			(at 299.72 55.88 90)
 			(effects
 				(font
@@ -27357,6 +27921,15 @@
 			)
 		)
 		(property "LCSC" "C25506"
+			(at 374.65 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;90"
 			(at 374.65 74.93 90)
 			(effects
 				(font
