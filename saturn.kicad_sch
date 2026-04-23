@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "1437d78f-2672-4553-b786-22c28e887ed9")
@@ -7942,9 +7942,9 @@
 		)
 		(uuid "f0c15b04-2542-476d-9785-13e6d3f81f8b")
 	)
-	(text "Analog capable pins: ESP IO01 - IO20\nPMOD IO4 (and PMOD IO10) pins\nmust be within this range"
+	(text "Analog capable pins: ESP IO01 - IO10\nPMOD IO3 and IO4 (and PMOD IO9 and IO10) pins\nmust be within this range"
 		(exclude_from_sim no)
-		(at 315.976 122.428 0)
+		(at 320.04 111.252 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9112,7 +9112,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 140.97) (xy 287.02 140.97)
+			(xy 267.97 118.11) (xy 287.02 118.11)
 		)
 		(stroke
 			(width 0)
@@ -9212,7 +9212,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 118.11) (xy 287.02 118.11)
+			(xy 267.97 140.97) (xy 287.02 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10492,7 +10492,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 135.89) (xy 287.02 135.89)
+			(xy 267.97 113.03) (xy 287.02 113.03)
 		)
 		(stroke
 			(width 0)
@@ -10792,7 +10792,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 138.43) (xy 287.02 138.43)
+			(xy 267.97 115.57) (xy 287.02 115.57)
 		)
 		(stroke
 			(width 0)
@@ -11172,7 +11172,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 143.51) (xy 287.02 143.51)
+			(xy 267.97 120.65) (xy 287.02 120.65)
 		)
 		(stroke
 			(width 0)
@@ -11202,7 +11202,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 115.57) (xy 287.02 115.57)
+			(xy 267.97 138.43) (xy 287.02 138.43)
 		)
 		(stroke
 			(width 0)
@@ -11372,7 +11372,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 120.65) (xy 287.02 120.65)
+			(xy 267.97 143.51) (xy 287.02 143.51)
 		)
 		(stroke
 			(width 0)
@@ -11382,7 +11382,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 176.53) (xy 287.02 176.53)
+			(xy 267.97 123.19) (xy 287.02 123.19)
 		)
 		(stroke
 			(width 0)
@@ -11782,7 +11782,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 123.19) (xy 287.02 123.19)
+			(xy 267.97 176.53) (xy 287.02 176.53)
 		)
 		(stroke
 			(width 0)
@@ -12162,7 +12162,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 113.03) (xy 287.02 113.03)
+			(xy 267.97 135.89) (xy 287.02 135.89)
 		)
 		(stroke
 			(width 0)
@@ -12690,8 +12690,8 @@
 		)
 		(uuid "fedf8b9d-0f57-465a-90e4-bd1ba8fbfc3e")
 	)
-	(label "PMOD0_IO9"
-		(at 287.02 140.97 180)
+	(label "PMOD3_IO9"
+		(at 287.02 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12701,7 +12701,7 @@
 		(uuid "051d97b0-a59a-416c-92a1-f352db3872c0")
 	)
 	(label "PMOD2_IO3"
-		(at 287.02 176.53 180)
+		(at 287.02 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12720,8 +12720,8 @@
 		)
 		(uuid "0ecd5cd2-14a9-4308-87b0-6318d8f26415")
 	)
-	(label "PMOD0_IO10"
-		(at 287.02 135.89 180)
+	(label "PMOD3_IO10"
+		(at 287.02 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12730,7 +12730,7 @@
 		)
 		(uuid "10082624-a4dc-4318-a342-5fd48a054c02")
 	)
-	(label "PMOD0_IO9"
+	(label "PMOD3_IO9"
 		(at 288.29 55.88 180)
 		(effects
 			(font
@@ -12830,7 +12830,7 @@
 		)
 		(uuid "351ccee1-d782-4c47-82d8-23a10aad7286")
 	)
-	(label "PMOD0_IO7"
+	(label "PMOD3_IO7"
 		(at 288.29 50.8 180)
 		(effects
 			(font
@@ -12860,7 +12860,7 @@
 		)
 		(uuid "3aaabc97-0abd-451e-b8c1-f01d80786776")
 	)
-	(label "PMOD0_IO8"
+	(label "PMOD3_IO8"
 		(at 288.29 53.34 180)
 		(effects
 			(font
@@ -12891,7 +12891,7 @@
 		(uuid "4db1b270-f24d-4b8f-bc72-e261e8d6fd9a")
 	)
 	(label "PMOD1_IO2"
-		(at 287.02 113.03 180)
+		(at 287.02 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13010,7 +13010,7 @@
 		)
 		(uuid "7c5318e2-4be8-4b83-92bb-c950923ebf46")
 	)
-	(label "PMOD0_IO7"
+	(label "PMOD3_IO7"
 		(at 287.02 128.27 180)
 		(effects
 			(font
@@ -13040,8 +13040,8 @@
 		)
 		(uuid "808871b3-f77f-4279-9518-8253015d63ca")
 	)
-	(label "PMOD0_IO3"
-		(at 287.02 143.51 180)
+	(label "PMOD3_IO3"
+		(at 287.02 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13050,8 +13050,8 @@
 		)
 		(uuid "80b47ade-c147-4920-bb63-db6b6aeb0e31")
 	)
-	(label "PMOD0_IO4"
-		(at 287.02 138.43 180)
+	(label "PMOD3_IO4"
+		(at 287.02 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13070,7 +13070,7 @@
 		)
 		(uuid "8629adc3-6496-4c16-ba02-8db89f34172a")
 	)
-	(label "PMOD0_IO1"
+	(label "PMOD3_IO1"
 		(at 288.29 35.56 180)
 		(effects
 			(font
@@ -13130,7 +13130,7 @@
 		)
 		(uuid "919b97ec-b50f-4403-9d75-38ee28472f73")
 	)
-	(label "PMOD0_IO4"
+	(label "PMOD3_IO4"
 		(at 288.29 43.18 180)
 		(effects
 			(font
@@ -13160,7 +13160,7 @@
 		)
 		(uuid "a337798b-f2b1-477d-b4ca-e11ad9a6a1a6")
 	)
-	(label "PMOD0_IO1"
+	(label "PMOD3_IO1"
 		(at 287.02 130.81 180)
 		(effects
 			(font
@@ -13211,7 +13211,7 @@
 		(uuid "aee878f9-7597-47a7-983d-596d965c9617")
 	)
 	(label "I2CA_SCL"
-		(at 287.02 118.11 180)
+		(at 287.02 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13230,8 +13230,8 @@
 		)
 		(uuid "b0206d4b-7b72-4f39-af33-5bcfcdf52bcf")
 	)
-	(label "PMOD0_IO8"
-		(at 287.02 123.19 180)
+	(label "PMOD3_IO8"
+		(at 287.02 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13240,7 +13240,7 @@
 		)
 		(uuid "b6212e5a-1156-4d6c-835f-07c80a9f7e89")
 	)
-	(label "PMOD0_IO2"
+	(label "PMOD3_IO2"
 		(at 288.29 38.1 180)
 		(effects
 			(font
@@ -13321,7 +13321,7 @@
 		(uuid "d62eaa5d-d36d-4895-89f6-7b03faaa526b")
 	)
 	(label "I2CA_SDA"
-		(at 287.02 120.65 180)
+		(at 287.02 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13360,7 +13360,7 @@
 		)
 		(uuid "dff9204e-0831-43ea-9fba-c543691d82aa")
 	)
-	(label "PMOD0_IO10"
+	(label "PMOD3_IO10"
 		(at 289.56 58.42 180)
 		(effects
 			(font
@@ -13370,7 +13370,7 @@
 		)
 		(uuid "e21509f9-0c62-43e8-b6a8-a1e8f0365212")
 	)
-	(label "PMOD0_IO3"
+	(label "PMOD3_IO3"
 		(at 288.29 40.64 180)
 		(effects
 			(font
@@ -13401,7 +13401,7 @@
 		(uuid "ef2ae912-9ea0-4d19-9a71-fbe0da5d3116")
 	)
 	(label "PMOD1_IO1"
-		(at 287.02 115.57 180)
+		(at 287.02 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13410,7 +13410,7 @@
 		)
 		(uuid "f428a644-eedc-4e3b-8881-cd8e58852b67")
 	)
-	(label "PMOD0_IO2"
+	(label "PMOD3_IO2"
 		(at 287.02 125.73 180)
 		(effects
 			(font
@@ -25655,82 +25655,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 66.04 275.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac27c913-858c-4029-90ac-ececaf38cdaf")
-		(property "Reference" "H6"
-			(at 68.58 274.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 68.58 276.8599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 66.04 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 66.04 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "saturn"
-				(path "/1437d78f-2672-4553-b786-22c28e887ed9"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RKL-ESP:ESP32-S3-WROOM")
 		(at 256.54 97.79 0)
 		(unit 1)
@@ -29240,82 +29164,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 66.04 280.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddc7c4e4-0fbe-4aa3-b786-90afeaf70617")
-		(property "Reference" "H7"
-			(at 68.58 279.3999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 68.58 281.9399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 66.04 280.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 280.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 66.04 280.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "saturn"
-				(path "/1437d78f-2672-4553-b786-22c28e887ed9"
-					(reference "H7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 93.98 279.4 0)
 		(unit 1)
@@ -30093,7 +29941,7 @@
 				)
 			)
 		)
-		(property "Value" "PMOD0_FULL"
+		(property "Value" "PMOD3_FULL"
 			(at 317.5 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31066,82 +30914,6 @@
 			(project "saturn"
 				(path "/1437d78f-2672-4553-b786-22c28e887ed9"
 					(reference "RN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 66.04 270.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1ba360b-3969-44be-b5b3-20b9428fbc52")
-		(property "Reference" "H5"
-			(at 68.58 269.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 68.58 271.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:ToolingHole_1.152mm"
-			(at 66.04 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 66.04 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "saturn"
-				(path "/1437d78f-2672-4553-b786-22c28e887ed9"
-					(reference "H5")
 					(unit 1)
 				)
 			)

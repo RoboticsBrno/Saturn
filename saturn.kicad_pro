@@ -111,10 +111,6 @@
           ""
         ],
         [
-          "silk_over_copper|52550001|82000000|7b7c598e-7fba-4599-8ffb-5ff8a2569706|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "text_thickness|86000000|59100000|8d6b657e-c8f9-4e71-bb1f-bd3a761eddac|00000000-0000-0000-0000-000000000000",
           ""
         ]
@@ -175,6 +171,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -298,11 +295,13 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
