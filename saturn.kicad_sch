@@ -13971,7 +13971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "PinHeader_jumper:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left_LargePads"
 			(at 344.17 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -14004,7 +14004,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C49257"
+		(property "LCSC" "C41417360"
 			(at 344.17 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -14015,7 +14015,7 @@
 				)
 			)
 		)
-		(property "JLCPCB_CORRECTION" "0;2.54;90"
+		(property "JLCPCB_CORRECTION" ""
 			(at 344.17 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -15318,7 +15318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "PinHeader_jumper:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left_LargePads"
 			(at 344.17 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -15351,7 +15351,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C49257"
+		(property "LCSC" "C41417360"
 			(at 344.17 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -15362,7 +15362,7 @@
 				)
 			)
 		)
-		(property "JLCPCB_CORRECTION" "0;2.54;90"
+		(property "JLCPCB_CORRECTION" ""
 			(at 344.17 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -28598,7 +28598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "PinHeader_jumper:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left_LargePads"
 			(at 262.89 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -28631,7 +28631,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C49257"
+		(property "LCSC" "C41417360"
 			(at 262.89 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -28642,7 +28642,7 @@
 				)
 			)
 		)
-		(property "JLCPCB_CORRECTION" "0;2.54;90"
+		(property "JLCPCB_CORRECTION" ""
 			(at 262.89 48.26 90)
 			(hide yes)
 			(show_name no)
