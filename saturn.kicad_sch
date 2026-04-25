@@ -18633,7 +18633,7 @@
 				)
 			)
 		)
-		(property "Value" "BOOT"
+		(property "Value" "SKRPABE010"
 			(at 33.02 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19238,7 +19238,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "H3V3LD5B"
+		(property "Value" "PESD3V3L1UB"
 			(at 52.832 114.808 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19260,7 +19260,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590925461511741440"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590910295219126272"
 			(at 49.53 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -19282,7 +19282,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20615817"
+		(property "LCSC" "C3001945"
 			(at 49.53 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -20087,7 +20087,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "H3V3LD5B"
+		(property "Value" "PESD3V3L1UB"
 			(at 41.148 114.808 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20109,7 +20109,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590925461511741440"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590910295219126272"
 			(at 44.45 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -20131,7 +20131,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20615817"
+		(property "LCSC" "C3001945"
 			(at 44.45 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -24613,7 +24613,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "H3V3LD5B"
+		(property "Value" "PESD3V3L1UB"
 			(at 67.437 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24635,7 +24635,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590925461511741440"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590910295219126272"
 			(at 64.135 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -24657,7 +24657,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20615817"
+		(property "LCSC" "C3001945"
 			(at 64.135 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -24739,7 +24739,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "H3V3LD5B"
+		(property "Value" "PESD3V3L1UB"
 			(at 55.753 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24761,7 +24761,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590925461511741440"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590910295219126272"
 			(at 59.055 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -24783,7 +24783,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20615817"
+		(property "LCSC" "C3001945"
 			(at 59.055 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -27710,7 +27710,7 @@
 				)
 			)
 		)
-		(property "Value" "EN"
+		(property "Value" "SKRPABE010"
 			(at 33.02 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
