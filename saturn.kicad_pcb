@@ -29778,6 +29778,18 @@
 			)
 		)
 	)
+	(gr_text "+"
+		(at 56.7 87.45 0)
+		(layer "F.SilkS")
+		(uuid "0fbaf6b4-e785-40e8-b2ce-5c4ee41b5f9b")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.25)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "saturn.roboticsbrno.cz"
 		(at 62.8 57.8 0)
 		(layer "F.SilkS")
@@ -29806,6 +29818,18 @@
 		(at 64.2 84.3 0)
 		(layer "F.SilkS")
 		(uuid "f4773ef0-8557-489a-b630-61e549d67a49")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.25)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 97.5 107.4 0)
+		(layer "F.SilkS")
+		(uuid "e4d678aa-ffaf-44f1-b0ad-f03711b8c975")
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -29854,6 +29878,18 @@
 		(at 126.6 111.2 0)
 		(layer "F.SilkS")
 		(uuid "a1041d4f-6579-427f-bb7d-2367319fe3b6")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.25)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 133.25 100.3 0)
+		(layer "F.SilkS")
+		(uuid "0c100900-e80b-43ce-b616-9b130ae37898")
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -29940,17 +29976,6 @@
 			(justify right)
 		)
 	)
-	(gr_text "I-LED"
-		(at 66.2 118.575 90)
-		(layer "F.SilkS")
-		(uuid "d9693cf9-d025-457b-8568-72c3fb9717c9")
-		(effects
-			(font
-				(size 1.2 1.2)
-				(thickness 0.25)
-			)
-		)
-	)
 	(gr_text "PMOD 2"
 		(at 132.7 93.4 90)
 		(layer "F.SilkS")
@@ -29989,6 +30014,17 @@
 		(at 57.8 93.5 270)
 		(layer "F.SilkS")
 		(uuid "1c7629ee-fc0c-415f-8c9d-c6ca2a528eac")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.25)
+			)
+		)
+	)
+	(gr_text "I-LED"
+		(at 66.2 118.575 270)
+		(layer "F.SilkS")
+		(uuid "d9693cf9-d025-457b-8568-72c3fb9717c9")
 		(effects
 			(font
 				(size 1.2 1.2)
