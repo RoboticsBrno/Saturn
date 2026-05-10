@@ -18920,7 +18920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
+		(property "Footprint" "Switch_SMT:SW_SMD_LargePads"
 			(at 33.02 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -28000,7 +28000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
+		(property "Footprint" "Switch_SMT:SW_SMD_LargePads"
 			(at 33.02 165.1 0)
 			(hide yes)
 			(show_name no)
