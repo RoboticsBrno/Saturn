@@ -1,0 +1,10 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "PinHeader_jumper") (type "KiCad") (uri "${KIPRJMOD}/PinHeader_jumper.pretty") (options "") (descr ""))
+	(lib (name "PinSocket_PMOD") (type "KiCad") (uri "${KIPRJMOD}/PinSocket_PMOD.pretty") (options "") (descr ""))
+	(lib (name "JST-XH-SMT") (type "KiCad") (uri "${KIPRJMOD}/JST-XH-SMT.pretty") (options "") (descr ""))
+	(lib (name "Switch_SMT") (type "KiCad") (uri "${KIPRJMOD}/Switch_SMT.pretty") (options "") (descr ""))
+	(lib (name "USB_Conn") (type "KiCad") (uri "${KIPRJMOD}/USB_Conn.pretty") (options "") (descr ""))
+	(lib (name "ESP32-WROOM") (type "KiCad") (uri "${KIPRJMOD}/ESP32-WROOM.pretty") (options "") (descr ""))
+	(lib (name "XL-2020RGBC-WS2812B") (type "KiCad") (uri "${KIPRJMOD}/XL-2020RGBC-WS2812B.pretty") (options "") (descr ""))
+)
