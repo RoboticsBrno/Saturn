@@ -819,7 +819,7 @@
         "uuid": "1437d78f-2672-4553-b786-22c28e887ed9"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R20,C25,#PWR73",
     "variants": [
       {
         "name": "ffs"
