@@ -16385,7 +16385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 211.7852 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -16418,7 +16418,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C13585"
+		(property "LCSC" "C15850"
 			(at 210.82 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -16476,7 +16476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Molex-105017-0001"
+		(property "Footprint" "USB_Conn:USB_Micro-B_XNJ-073_With_THR_Paste"
 			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -17759,7 +17759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 58.1152 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -17792,7 +17792,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C13585"
+		(property "LCSC" "C15850"
 			(at 57.15 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -21378,7 +21378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+		(property "Footprint" "XL-2020RGBC-WS2812B:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
 			(at 176.53 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -22149,7 +22149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 126.0602 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -22182,7 +22182,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C13585"
+		(property "LCSC" "C15850"
 			(at 125.095 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -25965,7 +25965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RKL-ESP:ESP32-S3-WROOM"
+		(property "Footprint" "ESP32-WROOM:ESP32-S3-WROOM"
 			(at 256.54 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -26813,7 +26813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 67.0052 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -26846,7 +26846,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C13585"
+		(property "LCSC" "C15850"
 			(at 66.04 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -29947,7 +29947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "USB_Conn:USB_C_Receptacle_HRO_TYPE-C-31-M-12_With_THR_Paste"
 			(at 33.655 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -29958,7 +29958,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" ""
 			(at 33.655 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -30003,28 +30003,6 @@
 			)
 		)
 		(property "Basic/Extended" "E"
-			(at 29.845 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price (100ks)" "0.1238"
-			(at 29.845 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price (1ks)" "0.1542"
 			(at 29.845 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -31481,7 +31459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 35.2552 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -31514,7 +31492,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C13585"
+		(property "LCSC" "C15850"
 			(at 34.29 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -31574,7 +31552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 340.0552 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -31607,7 +31585,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C13585"
+		(property "LCSC" "C15850"
 			(at 339.09 223.52 0)
 			(hide yes)
 			(show_name no)
