@@ -7482,7 +7482,7 @@
 				)
 			)
 		)
-		(property "Value" "SGM2212-3.3XKC3G"
+		(property "Value" "AMS1117-3.3"
 			(at 0.0625 -6.25 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7520,7 +7520,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3294699"
+		(property "LCSC" "C6186"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29139,7 +29139,7 @@
 		(layer "Edge.Cuts")
 		(uuid "38f930a0-36da-4d3f-97a4-73a3741efdc3")
 	)
-	(gr_text "+3V3 current limit:\n800mA total"
+	(gr_text "+3V3 current limit:\n1A total"
 		(at 87.8 85.3 0)
 		(layer "F.SilkS")
 		(uuid "28529231-f937-4eb5-becb-928d6acfc245")
@@ -29423,7 +29423,7 @@
 		)
 	)
 	(gr_text "Display link"
-		(at 115.7 72.6 0)
+		(at 115.6 72.9 0)
 		(layer "F.SilkS")
 		(uuid "74c99539-619e-4be1-a67d-ae65be86a8f0")
 		(effects

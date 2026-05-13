@@ -26174,7 +26174,7 @@
 				)
 			)
 		)
-		(property "Value" "SGM2212-3.3XKC3G"
+		(property "Value" "AMS1117-3.3"
 			(at 46.355 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26217,7 +26217,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3294699"
+		(property "LCSC" "C6186"
 			(at 45.72 243.84 0)
 			(hide yes)
 			(show_name no)
