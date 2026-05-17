@@ -1,0 +1,42 @@
+{
+    "layout": {
+        "hspace": "3mm",
+        "vspace": "2mm",
+        "rows": "2",
+        "cols": "2"
+    },
+    "tabs": {
+        "type": "annotation"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "offset": "0.2mm"
+    },
+    "framing": {
+        "type": "railstb",
+        "chamferwidth": "2mm",
+        "chamferheight": "2mm"
+    },
+    "tooling": {
+        "type": "3hole",
+        "hoffset": "16mm",
+        "voffset": "2.5mm",
+        "size": "1.152mm",
+        "soldermaskmargin": "0.15mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "10mm",
+        "voffset": "2.5mm"
+    },
+    "copperfill": {
+        "type": "solid",
+        "layers": "F.Cu,B.Cu,In1.Cu,In2.Cu"
+    },
+    "post": {
+        "refillzones": "True"
+    },
+    "debug": {
+        "trace": "True"
+    }
+}
