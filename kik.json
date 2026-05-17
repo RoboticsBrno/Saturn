@@ -6,7 +6,8 @@
         "cols": "2"
     },
     "tabs": {
-        "type": "annotation"
+        "type": "annotation",
+        "fillet": "1mm"
     },
     "cuts": {
         "type": "mousebites",
@@ -27,7 +28,8 @@
     "fiducials": {
         "type": "3fid",
         "hoffset": "10mm",
-        "voffset": "2.5mm"
+        "voffset": "2.5mm",
+        "opening": "2mm"
     },
     "copperfill": {
         "type": "solid",

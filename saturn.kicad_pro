@@ -87,35 +87,11 @@
           ""
         ],
         [
-          "hole_clearance|90400000|70200000|11cdb0a3-71fb-41da-b89f-396afd7d9f81|abfa553a-0379-44ce-863f-d00bd8b5ac0a",
+          "hole_clearance|91400000|71225000|1d4d6221-017f-49f6-aa16-4bacc570a438|cd1d5c64-1920-4ce9-a64b-8818d178cd57",
           ""
         ],
         [
-          "hole_clearance|90400000|70200000|4f512215-cca5-4ff5-afd0-95020b8b6c8a|11cdb0a3-71fb-41da-b89f-396afd7d9f81",
-          ""
-        ],
-        [
-          "hole_clearance|90400000|72200000|a63ba67e-df3d-4fef-8ac2-1994d7c5acd5|cd1d5c64-1920-4ce9-a64b-8818d178cd57",
-          ""
-        ],
-        [
-          "hole_clearance|90400000|72200000|cd1d5c64-1920-4ce9-a64b-8818d178cd57|abfa553a-0379-44ce-863f-d00bd8b5ac0a",
-          ""
-        ],
-        [
-          "hole_clearance|92400000|70200000|19612999-d46b-4caf-9a68-5e900e586b05|abfa553a-0379-44ce-863f-d00bd8b5ac0a",
-          ""
-        ],
-        [
-          "hole_clearance|92400000|70200000|843c4a39-5742-4d37-b367-f1324096d2ec|19612999-d46b-4caf-9a68-5e900e586b05",
-          ""
-        ],
-        [
-          "hole_clearance|92400000|72200000|6953698e-d5c6-4f56-9a24-f111fc1029d3|d92cbea2-a636-4386-ab48-ba53f2705dc4",
-          ""
-        ],
-        [
-          "hole_clearance|92400000|72200000|d92cbea2-a636-4386-ab48-ba53f2705dc4|abfa553a-0379-44ce-863f-d00bd8b5ac0a",
+          "hole_clearance|91400000|71225000|cd1d5c64-1920-4ce9-a64b-8818d178cd57|abfa553a-0379-44ce-863f-d00bd8b5ac0a",
           ""
         ],
         [
@@ -127,7 +103,7 @@
           ""
         ],
         [
-          "text_thickness|86000000|59100000|8d6b657e-c8f9-4e71-bb1f-bd3a761eddac|00000000-0000-0000-0000-000000000000",
+          "track_dangling|79725000|119125000|c0858f49-ebf1-4335-b693-e88978c06fc4|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -819,7 +795,7 @@
         "uuid": "1437d78f-2672-4553-b786-22c28e887ed9"
       }
     ],
-    "used_designators": "Q5-6,R21-22,R72,#PWR74-77",
+    "used_designators": "T1-6",
     "variants": [
       {
         "name": "ffs"
