@@ -10528,16 +10528,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 113.03) (xy 26.67 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63619a97-de12-4036-b5f1-12964377bb05")
-	)
-	(wire
-		(pts
 			(xy 44.45 118.11) (xy 44.45 121.92)
 		)
 		(stroke
@@ -10655,6 +10645,16 @@
 			(type default)
 		)
 		(uuid "67f0e9d0-3541-4227-af24-ec64cfc41030")
+	)
+	(wire
+		(pts
+			(xy 26.67 110.49) (xy 26.67 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68fa0d0d-798c-4445-a206-a488b0448dd0")
 	)
 	(wire
 		(pts
@@ -17185,7 +17185,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_B_Micro"
+		(property "Value" "MICRO 4P DIP"
 			(at 29.21 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17195,7 +17195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB_Conn:USB_Micro-B_XNJ-073_With_THR_Paste"
+		(property "Footprint" "USB_Conn:USB_MICRO 4P DIP"
 			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -17228,7 +17228,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C404969"
+		(property "LCSC" "C456008"
 			(at 29.21 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17239,7 +17239,7 @@
 				)
 			)
 		)
-		(property "JLCPCB_CORRECTION" "0;-0.1;0"
+		(property "JLCPCB_CORRECTION" "0;-0;0"
 			(at 29.21 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17251,28 +17251,6 @@
 			)
 		)
 		(property "Basic/Extended" "E"
-			(at 29.21 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price (100ks)" "0.0269"
-			(at 29.21 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price (1ks)" "0.0329"
 			(at 29.21 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -27509,7 +27487,7 @@
 				)
 			)
 		)
-		(property "JLCPCB_CORRECTION" "0;9.1;0"
+		(property "JLCPCB_CORRECTION" "0;8.9;0"
 			(at 259.08 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -31880,7 +31858,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0"
+		(property "Value" "TYPE-C-31-M-12"
 			(at 30.099 24.638 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31934,7 +31912,7 @@
 				)
 			)
 		)
-		(property "JLCPCB_CORRECTION" "0;-1.2;0"
+		(property "JLCPCB_CORRECTION" "0;-1.4;0"
 			(at 29.845 44.45 0)
 			(hide yes)
 			(show_name no)

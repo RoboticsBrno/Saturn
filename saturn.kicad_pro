@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.4,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -83,10 +83,6 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|140784852|63035000|8e3c1021-eb1b-4f10-9854-4c8fc1101c97|dac65939-d7ef-461e-a18b-f496ac88aaca",
-          ""
-        ],
-        [
           "hole_clearance|91400000|71225000|1d4d6221-017f-49f6-aa16-4bacc570a438|cd1d5c64-1920-4ce9-a64b-8818d178cd57",
           ""
         ],
@@ -95,15 +91,7 @@
           ""
         ],
         [
-          "silk_edge_clearance|145000000|63650000|50920103-bd66-44c3-abb3-e6bd601171e5|de6f93ef-2e4d-47f5-bc33-3d59c7dbf62d",
-          ""
-        ],
-        [
-          "silk_edge_clearance|145000000|73050000|50920103-bd66-44c3-abb3-e6bd601171e5|b723fb55-9dee-4bfb-ba47-554b81faf695",
-          ""
-        ],
-        [
-          "track_dangling|79725000|119125000|c0858f49-ebf1-4335-b693-e88978c06fc4|00000000-0000-0000-0000-000000000000",
+          "track_dangling|79400000|119125000|62d73568-0dfc-46de-9c1c-6aab13bca457|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
