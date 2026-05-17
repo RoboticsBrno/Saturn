@@ -3,19 +3,19 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.6"
+      "Version": "10.0.2"
     },
-    "CreationDate": "2026-03-03T22:35:12+01:00"
+    "CreationDate": "2026-05-17T22:33:00+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "saturn",
-      "GUID": "73617475-726e-42e6-9b69-6361645f7063",
+      "Name": "kik_panel",
+      "GUID": "6b696b5f-7061-46e6-956c-2e6b69636164",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 100.05,
-      "Y": 66.05
+      "X": 203.1,
+      "Y": 148.1
     },
     "LayerNumber": 4,
     "BoardThickness": 1.524,
@@ -42,62 +42,62 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "saturn-CuTop.gtl",
+      "Path": "kik_panel-CuTop.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "saturn-CuBottom.gbl",
+      "Path": "kik_panel-CuBottom.gbl",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "saturn-PasteBottom.gbp",
+      "Path": "kik_panel-PasteBottom.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "saturn-PasteTop.gtp",
+      "Path": "kik_panel-PasteTop.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "saturn-SilkTop.gto",
+      "Path": "kik_panel-SilkTop.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "saturn-SilkBottom.gbo",
+      "Path": "kik_panel-SilkBottom.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "saturn-MaskBottom.gbs",
+      "Path": "kik_panel-MaskBottom.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "saturn-MaskTop.gts",
+      "Path": "kik_panel-MaskTop.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "saturn-EdgeCuts.gm1",
+      "Path": "kik_panel-EdgeCuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "saturn-CmtUser.gbr",
+      "Path": "kik_panel-CmtUser.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "saturn-inner1.g1",
+      "Path": "kik_panel-inner1.g1",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "saturn-inner2.g2",
+      "Path": "kik_panel-inner2.g2",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     }

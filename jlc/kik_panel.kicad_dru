@@ -1,0 +1,14 @@
+(version 1)
+
+(rule Board_0-ViaNearPad
+   (constraint physical_hole_clearance (min 0.15mm))
+   (condition "A.Type == 'via' && B.Type == 'pad'") )
+(rule Board_1-ViaNearPad
+   (constraint physical_hole_clearance (min 0.15mm))
+   (condition "A.Type == 'via' && B.Type == 'pad'") )
+(rule Board_2-ViaNearPad
+   (constraint physical_hole_clearance (min 0.15mm))
+   (condition "A.Type == 'via' && B.Type == 'pad'") )
+(rule Board_3-ViaNearPad
+   (constraint physical_hole_clearance (min 0.15mm))
+   (condition "A.Type == 'via' && B.Type == 'pad'") )
